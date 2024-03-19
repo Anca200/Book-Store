@@ -36,9 +36,11 @@
 
             <div class="menu"><i class="bi bi-list"></i></div> <!--Nav hamburger menu-->
         </nav>
-       <div data-aos="fade-up"
-       data-aos-duration="3000" class="header-text">
+
+       <div class="header-text" data-aos="fade-up"data-aos-duration="3000" > <!--Header text animation data-->
         <h1> You're only one book<br>away from a good mood</h1>
+
+        <!--Search Bar-->
         <div class="input">
         <input type="search" placeholder="Find your book...">
         <i class="bi bi-search"></i>
@@ -47,13 +49,13 @@
     </header>
 
     <!--Main-->
-    <main>
 
+    <main>
+             <!--Section 1-->
        <!--Title-->
-       <div   data-aos="fade-up"
-       data-aos-anchor-placement="top-bottom"class="award-text">
+       <div class="award-text" data-aos="fade-up"data-aos-anchor-placement="top-bottom">
         <h2 >Award Winning Novels</h2>
-        <hr>
+        <hr> <!--Line Title-->
        </div>
          
        <!--Container-->
@@ -63,14 +65,17 @@
         <!--Item 1-->
           <div class="book">
             <img src="./resources/book 1.webp">
-            <div class="book-text">
-                <p class="title">A Touch of Chaos</p>
+
+            <div class="book-text"> <!--Item text-->
+                <p class="title">A Touch of Chaos</p> 
                 <p class="author"><span class="by">By:</span>Scarlett St. Clair</p>
-                <div class="rating">
+
+                <div class="rating">  <!--Star Rating Fixed-->
                   <meter class="average-rating" min="0" max="5" value="4.3" title="4.3 out of 5 stars">4.3 out of 5</meter>
                 </div>
                 <p class="price">25$</p>
-                <div class="container-btn">
+
+                <div class="container-btn"> <!--Add button-->
                 <button class="add">Add To Cart</button>
                 </div>
               </div>
@@ -79,14 +84,17 @@
           <!--Item 2-->
           <div class="book">
             <img src="./resources/book 2.webp">
-            <div class="book-text">
+
+            <div class="book-text"> <!--Item text-->
                 <p class="title">Memory Piece</p>
                 <p class="author"><span class="by">By:</span>Lisa Ko</p>
-                <div class="rating">
+
+                <div class="rating"> <!--Star Rating Fixed-->
                   <meter class="average-rating b2" min="0" max="5" value="5" title="5 out of 5 stars">5 out of 5</meter>
                 </div>
                 <p class="price">25$</p>
-                <div class="container-btn">
+
+                <div class="container-btn"> <!--Add button-->
                   <button class="add">Add To Cart</button>
                   </div>
               </div>
@@ -95,14 +103,17 @@
           <!--Item 3-->
           <div class="book">
             <img src="./resources//book 3.webp">
-            <div class="book-text">
+
+            <div class="book-text"> <!--Item text-->
                 <p class="title">The Morningside</p>
                 <p class="author"><span class="by">By:</span>Téa Obreht</p>
-                <div class="rating">
+
+                <div class="rating"> <!--Star Rating Fixed-->
                   <meter class="average-rating b3" min="0" max="5" value="4.5" title="4.5 out of 5 stars">4.5 out of 5</meter>
                 </div>
                 <p class="price">26,10$</p>
-                <div class="container-btn">
+
+                <div class="container-btn"> <!--Add button-->
                   <button class="add">Add To Cart</button>
                   </div>
               </div>
@@ -111,25 +122,25 @@
 
 
 
-     <!--Slider-->
-    <section data-aos="fade-up"
-    data-aos-anchor-placement="top-bottom" id="marquee__container">
-      <div class="marquee">
-          <ul class="marquee__content">
-              <li><img class="marquee__img" src="./resources/book 6.jpg"></li>
-              <li><img class="marquee__img" src="./resources/book 3.webp"></li>
-              <li><img class="marquee__img" src="./resources/book 1.webp"></li>
-              <li><img class="marquee__img" src="./resources/book 5.webp"></li>
-              <li><img class="marquee__img" src="./resources/book 4.webp"></li>
-              <li><img class="marquee__img" src="./resources/book 3.webp"></li>
-              <li><img class="marquee__img" src="./resources/book 2.webp"></li>
-              <li><img class="marquee__img" src="./resources/book 1.webp"></li>
+     <!--Infinite Carousel-->
+    <section class="container-carousel " data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+
+      <div class="wrapper-carousel">
+          <ul class="content-carousel">
+              <li><img class="car-img" src="./resources/book 6.jpg"></li>
+              <li><img class="car-img" src="./resources/book 3.webp"></li>
+              <li><img class="car-img" src="./resources/book 1.webp"></li>
+              <li><img class="car-img" src="./resources/book 5.webp"></li>
+              <li><img class="car-img" src="./resources/book 4.webp"></li>
+              <li><img class="car-img" src="./resources/book 3.webp"></li>
+              <li><img class="car-img" src="./resources/book 2.webp"></li>
+              <li><img class="car-img" src="./resources/book 1.webp"></li>
   
               <!--Repeats for loop-->
-              <li><img class="marquee__img" src="./resources/book 2.webp"></li>
-              <li class="marquee--invisible--mobile"><img class="marquee__img" src="./resources/book 3.webp"></li>
-              <li class="marquee--invisible--mobile"><img class="marquee__img" src="./resources/book 6.jpg"></li>
-              <li class="marquee--invisible--mobile"><img class="marquee__img" src="./resources/book 5.webp"></li>
+              <li><img class="car-img" src="./resources/book 2.webp"></li>
+              <li class="car-invisible--mobile"><img class="car-img" src="./resources/book 3.webp"></li>
+              <li class="car-invisible--mobile"><img class="car-img" src="./resources/book 6.jpg"></li>
+              <li class="car-invisible--mobile"><img class="car-img" src="./resources/book 5.webp"></li>
           </ul>
       </div>
       </section>
