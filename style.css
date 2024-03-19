@@ -544,14 +544,12 @@ iframe{
     float: right;
     filter: drop-shadow(0 20px 20px #0009);
 }
-
 .footer-row1{
     display: flex;
     padding-top: 100px;
     justify-content: space-evenly;
     font-family: "Averia Serif Libre", serif;
 }
-/*Icons*/
 .bi-geo-alt-fill,
 .bi-telephone-fill{
     position: absolute;
@@ -565,7 +563,7 @@ iframe{
     font-size: 20px;
     color: #c85000;
 }
-.footer-row1 ul{
+.footer-row1 ul{    
     list-style: none;
 }
 .footer-row1 ul li:nth-child(3){
@@ -584,7 +582,13 @@ iframe{
     font-family: "Averia Serif Libre", serif;
     gap: 250px;
     margin: -50px 180px;
-  
+}
+.logo-footer img{ /*Logo*/
+    width: 200px;
+}
+.logo-footer{
+    margin-top: -50px;
+    margin-left: -50px;
 }
 .footer-row2 ul{
     list-style: none;
@@ -599,11 +603,7 @@ iframe{
 .footer-row2 ul li a{
     color: grey;
 }
-.copy-right{
-  margin: 60px 50px;
-  color: grey;
-}
-.icons {
+.icons {   /*Social*/
     float: right;
     font-size: 30px;
     display: flex;
@@ -618,10 +618,7 @@ iframe{
 .icons i:hover{
     transform: scale(1.4); 
 }
-.logo-footer img{
-width: 200px;
-}
-.logo-footer{
-    margin-top: -50px;
-    margin-left: -50px;
-}
+.copy-right{  /*Copy Right*/
+    margin: 60px 50px;
+    color: grey;
+  }

@@ -1,8 +1,7 @@
 //Animations
 AOS.init();
 
-//Nav
-
+//Nav Scroll
 const navbar = document.querySelector('nav')
 
 window.addEventListener('scroll', () => {
