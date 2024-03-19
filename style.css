@@ -8,6 +8,7 @@
 body{
     background-color: rgb(237, 232, 222);
 }
+/*Nav*/
 nav{
     display: flex;
     justify-content: space-between;
@@ -21,10 +22,45 @@ nav{
     z-index: 10;
     transition: background-color 250ms ease;
 }  
- nav.scrolled {
+ nav.scrolled {   /*Nav Background changes*/
     background-color: #c1a785;
-  }
-.nav-links{
+}
+
+/*Nav Container*/
+.container-nav{ 
+    display: flex;
+    gap: 10px;
+    padding-left: 10px;
+}
+.logo img{ 
+    width: 100px;
+    margin-top: 10px;
+}
+/*Shoping-Cart*/
+.basket{
+    position: relative;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: -10px;
+}
+.basket span{
+    display: flex;
+    width: 14px;
+    height: 14px;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    color: #decbb2;
+    border-radius: 50%;
+    position: absolute;
+    right: -12px;
+    top: 16px;
+    font-size: 10px;
+}
+/*Nav ul*/
+.nav-links{    
     display: flex;
     list-style: none;
     gap: 10px;
@@ -40,15 +76,11 @@ nav{
     text-decoration: none;
     color: inherit;
 }
-.container-nav{
-    display: flex;
-    gap: 10px;
-    padding-left: 10px;
-}
-.menu{
+.menu{   /* Nav Hamburger Menu*/
     display: none;
 }
 
+/*Header*/
 header{
     background-image: url(./resources/thought-catalog-Pnvmg65W9tQ-unsplash.jpg);
     height: 100vh;
@@ -65,7 +97,9 @@ header{
    font-size: 1.5rem;
    text-shadow: 2px 2px #decbb2;
 }
-input[type=search]{
+
+/*Search bar*/
+input[type=search]{ 
     margin:50px 50px;
     height: 50px;
     width: 400px;
@@ -89,35 +123,8 @@ input[type=search]{
     color: #746047;
     font-family: "Averia Serif Libre", serif;
 }
-/*Logo*/
 
-.logo img{
-    width: 100px;
-    margin-top: 10px;
-}
-/*Shoping-Cart*/
-.basket span{
-    display: flex;
-    width: 14px;
-    height: 14px;
-    background-color: rgb(0, 0, 0);
-    justify-content: center;
-    align-items: center;
-    color: #decbb2;
-    border-radius: 50%;
-    position: absolute;
-    right: -12px;
-    top: 16px;
-    font-size: 10px;
-}
-.basket{
-    position: relative;
-    font-size: 25px;
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    margin-top: 50px;
-    margin-left: -10px;
-}
+
 /*Page 1*/
 .award-text, /*Title*/
 .new-text,
