@@ -156,7 +156,7 @@ hr{ /*Line Title*/
 }
 
 /*Container Items*/
-.container-1{
+.container-s1{
     width: 100%;
     height: 500px;
     margin-top: 50px;
@@ -290,60 +290,6 @@ hr{ /*Line Title*/
   transform: translateY(0);
 }
 
-/*Page 2*/
-/*Newsletter*/
-
-.newsletter{
-    background-image: url(./resources/newsletter.jpg);
-    height: 200px;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: -50px;
-    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-}
-
-/*Page 3*/
-
-.new-text{ /*Title*/
-    margin-left: 500px;
-}
-.page-2{ /*Container*/
-    width: 100%;
-    height: 500px;
-    margin-top: 50px;
-    display: flex;
- background-color: #e5d6c4;
- margin-bottom: 200px;
-}
-.man{
-    filter: drop-shadow(0 20px 20px #0009);
-}
-/*Item*/
-.s2{
-    background-color:#decbb2;
-    height: 420px;
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    margin: 50px 60px;
-}
-.s2 img{
-    margin-left: -20px;
-    margin-top: -20px;
-}
-/*Text*/
-.p3{
-    margin-left: 30px;
-}
-/*Rating*/
-.b4::before{
-    --percent: calc(5/5*100%);
-}.b5::before{
-    --percent: calc(4.6/5*100%);
-}.b6::before{
-    --percent: calc(4/5*100%);
-}
 
 /*Infinite Carousel*/
 .container-carousel {
@@ -441,7 +387,57 @@ hr{ /*Line Title*/
  }
 }
 
-/*NewsLetter*/
+/*Section 2 New Releases*/
+
+.new-text{  /*Title*/
+    margin-left: 500px;
+}
+.container-s2{ /*Container*/
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    display: flex;
+    background-color: #e5d6c4;
+    margin-bottom: 200px;
+}
+.image-person{
+    filter: drop-shadow(0 20px 20px #0009);
+}
+/*Item*/
+.container-s2 .book{
+    background-color:#decbb2;
+    height: 420px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 60px;
+}
+.container-s2 .book img{
+    margin-left: -20px;
+    margin-top: -20px;
+}
+.container-s2 .book .book-text{ 
+    margin-left: 30px;
+}
+/*Rating*/
+.b4::before{
+    --percent: calc(5/5*100%);
+}.b5::before{
+    --percent: calc(4.6/5*100%);
+}.b6::before{
+    --percent: calc(4/5*100%);
+}
+
+/*Section 3 Newsletter*/
+.newsletter{
+    background-image: url(./resources/newsletter.jpg);
+    height: 200px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -50px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
 .news{
     background-color: #e5d6c4;
     width: 900px;
@@ -469,10 +465,8 @@ input[type=email]{
     padding: 10px 40px;
     box-shadow: rgb(179, 162, 140) 3px 3px 6px 0px inset, rgba(198, 198, 198, 0.5) -3px -3px 6px 1px inset;
     color: #f6f6f6;
-
 }
-/*Button*/
-.news-btn{
+.news-btn{  /*Button*/
     width: 80px;
     height: 30px;
     position: absolute;
@@ -486,12 +480,8 @@ input[type=email]{
     font-family: "Averia Serif Libre", serif;
 }
 
+/*Section 4 Feedback*/
 
-/*3*/
-.feed-title{
-    margin-top: 100px;
-    text-align: center;
-}
 .container-feed{
     width: 100%;
     height: 500px;
