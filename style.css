@@ -23,7 +23,8 @@ nav{
     transition: background-color 250ms ease;
 }  
  nav.scrolled {   /*Nav Background changes*/
-    background-color: #c1a785;
+    background-color: rgb(237, 232, 222);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 /*Nav Container*/
@@ -44,6 +45,10 @@ nav{
     cursor: pointer;
     margin-top: 50px;
     margin-left: -10px;
+    height: 20px;
+}
+.basket:hover{
+    color: #decbb2
 }
 .basket span{
     display: flex;
@@ -71,6 +76,9 @@ nav{
     font-family: "Averia Serif Libre", serif;
     text-shadow: 2px  2px 2px #decbb2;
     font-size: 1.2rem;
+}
+.nav-links li:hover{
+    color: #decbb2
 }
 .nav-links li a{
     text-decoration: none;
