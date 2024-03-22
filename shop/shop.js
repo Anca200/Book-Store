@@ -2,7 +2,7 @@
 
 const cartBtn =document.querySelector('.cart-btn');
 const closeCartBtn =document.querySelector('.close-cart');
-const cleartCartBtn =document.querySelector('.clear-cart');
+const clearCartBtn =document.querySelector('.clear-cart');
 const cartDOM =document.querySelector('.cart');
 const cartOverlay =document.querySelector('.cart-overlay');
 const cartItems =document.querySelector('.cart-items');
@@ -188,7 +188,6 @@ getBagButtons() {
  }
  getSingleButton(id){
     return buttonsDOM.find(button => button.dataset.id === id);
-
  }
 }
 
@@ -202,10 +201,11 @@ class Storage {
         return products.find(product => product.id === id);
     }
     static saveCart(cart) {
-        localStorage.setItem('cart',JSON.stringify(cart))
+        localStorage.setItem('cart',JSON.stringify(cart));
     }
     static getCart(){
-        return localStorage.getItem('cart')?JSON.parse(localStorage.getItem('cart')):[]
+        return localStorage.getItem('cart')
+        ? JSON.parse(localStorage.getItem('cart')): [];
     }
 }
 
@@ -215,7 +215,9 @@ document.addEventListener("DOMContentLoaded",()=> {
     //setup App
         ui.setupAPP();
     //get all products
-    products.getProducts().then(products => {
+    products
+    .getProducts()
+    .then(products => {
         ui.displayProducts(products);
     Storage.saveProducts(products);
 }).then(()=>{
