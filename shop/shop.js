@@ -133,13 +133,24 @@ getBagButtons() {
         this.clearCart();
     });
     //cart functionality
+    cartContent.addEventListener('click', event =>{
+       if(event.target.classList.contains('remove-item')){
+        let removeItem = event.target;
+        let id = removeItem.dataset.id;
+        cartContent.removeChild(removeItem.parentElement.parentElement);
+        this.removeItem(id);
+       }
+    })
  }
  clearCart(){
    let cartItems = cart.map(item => item.id);
    cartItems.forEach(id => this.removeItem(id));
+   console.log(cartContent.children)
+
    while(cartContent.children.length>0){
     cartContent.removeChild(cartContent.children[0])
    }
+   this.hideCart();
  }
  removeItem(id){
   cart = cart.filter(item => item.id !==id);
@@ -150,7 +161,7 @@ getBagButtons() {
  getSingleButton(id){
     return buttonsDOM.find(button => button.dataset.id === id);
     button.disabled = false;
-    button.innerHTML = `<i class="fas fa-shopping-cart></i>add to cart`;
+    button.innerHTML = `<i class="fas fa-shopping-cart"></i>add to cart`;
  }
 }
 
