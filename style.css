@@ -27,7 +27,6 @@ nav{
     position: fixed;
     width: 100%;
     color: white;
-    z-index: 10;
     transition: background-color 250ms ease;
     z-index: 1;
 }

@@ -1,0 +1,27 @@
+{
+    "items": [
+      {
+        "sys": { "id": "1" },
+        "fields": {
+          "title": "A Touch of Chaos",
+          "price": 25,
+          "image": { "fields": { "file": { "url": "../images/book-1.webp"} } }
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "fields": {
+          "title": "Memory Piece",
+          "price": 25,
+          "image": { "fields": { "file": { "url": "../images/book-2.webp" } } }
+        }
+      },
+      {
+        "sys": { "id": "3" },
+        "fields": {
+          "title": "The Morningside",
+          "price": 26.10,
+          "image": { "fields": { "file": { "url": "../images/book-3.webp" } } }
+        }
+      }
+      ]}

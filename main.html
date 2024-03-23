@@ -7,6 +7,8 @@
     <!--Main CSS -->
     <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="./style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
 
 
@@ -14,12 +16,14 @@
     <!--Icons-->
     <script src="https://kit.fontawesome.com/1b757b43bb.js" crossorigin="anonymous"></script>
     <!--Animations-->
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
-    
+        
+
+    <header>
+            
 <nav>
-    
     <ul class="nav-links"> <!--Nav ul links-->
         <li><a href="#">Home</a></li>
         <li><a href="./shop/shop.html">Shop</a></li>
@@ -40,9 +44,232 @@
             <span class="hamburger">
                 <i class="fas fa-bars"></i>
             </span>
-</nav>
+       </nav>
+       <div class="header-text"
+       data-aos="fade-up"data-aos-duration="3000" > <!--Header text animation data-->
+        <h1> You're only one book<br>away from a good mood</h1>
+
+    </header>
+
+
 
 <main>
+  
+
+
+     <section class="products">
+  
+        <div class="award-text"  data-aos="fade-up"data-aos-anchor-placement="top-bottom">
+            <h2 >Award Winning Novels</h2>
+            <hr> <!--Line Title-->
+           </div>
+        <div class="products-center"  data-aos="fade-up"data-aos-anchor-placement="top-bottom">
+   
+            <!--<article class="product">
+                <div class="div-book">
+                <div class="img-container">
+                    <img class="product-img" src="/resources/book 1.webp">
+                    <button class="bag-btn" data-id="1">
+                        <i class="fas fa-shopping-cart"></i>
+                        add to cart
+                    </button>
+                </div>
+                   <h3>Book 1</h3>
+                   <h4>10$</h4>
+            </div>
+                   </article>-->
+
+        </div>
+     </section>
+
+
+
+    <!--Section 2 Upcoming Books-->
+
+       <div class="up-text"> <!--Title-->
+        <h2>Upcoming Books</h2>
+        <hr> <!--Line Title-->
+       </div>
+     
+       <div class="container-s2">
+      <img class="image-person"src="./resources/man-wearing-waistcoat-reading-book-removebg-preview.png">
+       
+      <!--Item 1-->
+      <div class="book"> 
+        <img src="./images/book-4.webp">
+
+        <div class="book-text-up"> <!--Item text-->
+            <p class="title">Dune</p>
+            <p class="author"><span class="by">By:</span>Frank Herbert</p>
+            <p class="price">14,99$</p>
+
+            <div class="container-btn"> <!--Add button-->
+              <button class="add">Notify Me</button>
+              </div>
+          </div>
+      </div>
+
+      <!--Item 2-->
+      <div class="book">
+        <img src="./images/book-5.webp">
+
+        <div class="book-text-up">  <!--Item text-->
+            <p class="title">Reckless</p>
+            <p class="author"><span class="by">By:</span>Lauren Roberts</p>
+            <p class="price">21$</p>
+           
+            <div class="container-btn"> <!--Add button-->
+              <button class="add">Notify Me</button>
+              </div>
+          </div>
+      </div>
+
+      <!--Item 3-->
+      <div class="book ">
+        <img src="./images/book-6.jpg">
+
+        <div class="book-text-up">  <!--Item text-->
+            <p class="title">Faebound</p>
+            <p class="author"><span class="by">By:</span>Saara El-Arifi</p>
+            <p class="price">26,50$</p>
+            
+            <div class="container-btn"> <!--Add button-->
+              <button class="add">Notify Me</button>
+              </div>
+          </div>
+      </div>
+       </div>
+      
+
+       <!--Section 3 Newsletter-->
+       <div class="newsletter" data-aos="fade-up"data-aos-anchor-placement="top-bottom">  
+        <div class="news">
+          <h2>Subscribe To Our Newsletter</h2>
+
+        <form action="#"> <!--Form-->
+       <input type="email" required>
+       <button class="news-btn"type="submit">Subscribe</button> <!--Button Newsletter-->
+       </form>
+        </div>
+      </div>
+
+      <!--Section 4 Feedback-->
+
+      <div class="feed-text"> <!--Title-->
+        <h2>Client's Feedback</h2>
+        <hr>
+       </div>
+
+      <div class="container-feed" data-aos="fade-up"data-aos-anchor-placement="top-bottom"> 
+           
+        <!--Item 1-->
+      <div class="card">
+     <img src="./resources/person 1.avif"> 
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero minima architecto corrupti. Vero iure tempora pariatur quas neque voluptatem laborum?</p>
+     <p class="name-feed">Name</p>
+
+     <div class="rating-feed"> <!--Star Rating-->
+      <meter class="average-rating-feed b7" min="0" max="5" value="5" title="5 out of 5 stars">5 out of 5</meter>
+    </div>
+      </div>
+ 
+      <!--Item 2-->
+      <div class="card">
+        <img src="./resources/person 1.avif">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero minima architecto corrupti. Vero iure tempora pariatur quas neque voluptatem laborum?</p>
+        <p class="name-feed">Name</p>
+
+        <div class="rating-feed">  <!--Star Rating-->
+          <meter class="average-rating-feed b8" min="0" max="5" value="4.5" title="4.4 out of 5 stars">4.5 out of 5</meter>
+        </div>
+      </div>
+
+      <!--Item 3-->
+      <div class="card">
+        <img src="./resources/person 1.avif">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero minima architecto corrupti. Vero iure tempora pariatur quas neque voluptatem laborum?</p>
+        <p class="name-feed">Name</p>
+
+        <div class="rating-feed">  <!--Star Rating-->
+          <meter class="average-rating-feed b9" min="0" max="5" value="4.4" title="4.4 out of 5 stars">4.4 out of 5</meter>
+        </div>
+      </div>
+      </div>
+      
+     <div class="cart-overlay">
+
+      <div class="cart">
+          <span class="close-cart">
+              <i class="fas fa-window-close"></i>
+          </span>
+          <h2>your cart</h2>
+
+          <div class="cart-content">
+              <!--Cart item-->
+              <!--<div class="cart-item"> </div>-->
+          <!--End cart-->
+      </div>
+      <div class="cart-footer">
+          <h3>your total : $ <span class="cart-total">0</span></h3>
+          <button class="clear-cart banner-btn">
+            Clear Cart
+          </button>
+      </div>
+   </div>
+   </div>
+    </main>
+
+    <!--Footer-->
+
+    <footer>
+                      <!--IFrame-->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51331309.11864765!2d-171.32957186663188!3d38.25597038207342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258a3c52c3b4f%3A0xe6768ee7abbfef41!2sThe%20Corner%20Bookstore!5e0!3m2!1sen!2sro!4v1710808468691!5m2!1sen!2sro" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      <div class="footer-row1">
+         <ul>
+          <li>Find Us</li>
+          <i class="bi bi-geo-alt-fill"></i>
+          <li>1010 Avenue, Lorem ipsum </li>
+         </ul>
+         <ul>
+          <li>Call Us</li>
+          <i class="bi bi-telephone-fill"></i>
+          <li>123456789</li>
+         </ul>
+         <ul>
+          <li>Contact Us</li>
+          <i class="bi bi-envelope-open-fill"></i>
+          <li>lorem@info.com</li>
+         </ul>
+      </div>
+
+      <hr class="footer-line"> <!--Footer Line-->
+
+      <div class="footer-row2">
+         <div class="logo-footer">   <!--Logo-->
+          <img src="./resources/logo-removebg-preview.png" >
+         </div>
+
+         <ul>    <!--Links Website-->
+          <li>Links</li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blog</a></li>
+         </ul>
+      </div>
+
+      <div class="icons">          <!--Social-->
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-twitter"></i>
+      </div>
+
+      <div class="copy-right">      <!--Copy Right-->
+        <p>Copyright © 2024, All Right Reserved</p>
+      </div>
+    </footer>
+
 
 
     <div class="cart-overlay">
@@ -72,9 +299,9 @@
 
 
      <!--Main Js-->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="/main.js"></script>
-    <script src="../shop/shop.js"></script>
     <!--Animations-->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ 
 </body>
 </html>

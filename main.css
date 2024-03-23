@@ -1,0 +1,486 @@
+header{
+    background-image: url(./resources/thought-catalog-Pnvmg65W9tQ-unsplash.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.header-text{
+    margin: 200px 100px;
+    position: absolute;
+    font-family: "Averia Serif Libre", serif;
+    color: white;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px #decbb2;
+ }
+ 
+/*Section 1*/
+.award-text, 
+.up-text,
+.feed-text{
+    margin-top: 100px;
+    margin-left: 100px;
+    display: flex;
+    font-size: 20px;
+}
+.award-text h2,
+.up-text h2,
+.feed-text h2{
+    color: #444;
+    text-shadow: 
+      1px 0px 1px #ccc, 0px 1px 1px #eee, 
+      2px 1px 1px #ccc, 1px 2px 1px #eee,
+      3px 2px 1px #ccc, 2px 3px 1px #eee,
+      4px 3px 1px #ccc, 3px 4px 1px #eee,
+      5px 4px 1px #ccc, 4px 5px 1px #eee,
+      6px 5px 1px #ccc, 5px 6px 1px #eee,
+      7px 6px 1px #ccc;
+}
+hr{ /*Line Title*/
+    color: #746047;
+    width: 600px;
+    height: 0px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+
+  
+.products {
+    padding: 4rem 0;
+  }
+  .section-title h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
+    text-transform: capitalize;
+    letter-spacing: var(--mainSpacing);
+  }
+  .products-center {
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 100px;
+
+
+  }
+  .img-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    width: 250px;
+    height: 400px;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: -20px;
+    transition: all 0.5s ease;
+  }
+  .bag-btn {
+    position: absolute;
+    top: 70%;
+    right: 0;
+    background: var(--primaryColor);
+    border: none;
+    text-transform: uppercase;
+    padding: 0.5rem 0.75rem;
+    letter-spacing: var(--mainSpacing);
+    font-weight: bold;
+    transition: var(--mainTransition);
+    transform: translateX(101%);
+    cursor: pointer;
+  }
+  .bag-btn:hover {
+    color: var(--mainWhite);
+  }
+  .fa-shopping-cart {
+    margin-right: 0.5rem;
+  }
+  .img-container:hover .bag-btn {
+    transform: translateX(0);
+  }
+  .product-img {
+    display: block;
+    width: 100%;
+    min-height: 10rem;
+    transition: var(--mainTransition);
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .img-container:hover {
+    transform: scale(1.1); 
+  }
+  .book-text{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 50px;
+    font-family: "Averia Serif Libre", serif;
+ 
+  }
+  .product h3 {
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    letter-spacing: var(--mainSpacing);
+    text-align: center;
+    color:#ffffff;
+    text-shadow: 2px 2px #c1a785;
+  }
+  
+  .product h4 {
+    margin-top: 0.7rem;
+    letter-spacing: var(--mainSpacing);
+    color: var(--primaryColor);
+    text-align: center;
+  }
+  
+.div-book{
+    background-color: #decbb2;
+    width: 300px;
+    height: 450px;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/*Section 2 Upcoming Books*/
+
+.up-text{  /*Title*/
+    margin-left: 500px;
+    margin-top: 200px;
+}
+.container-s2{ /*Container*/
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    display: flex;
+    background-color: #e5d6c4;
+    margin-bottom: 200px;
+}
+.image-person{
+    filter: drop-shadow(0 20px 20px #0009);
+}
+
+/*Item*/
+.container-s2 .book{
+    background-color:#decbb2;
+    height: 350px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 60px;
+}
+.container-s2 .book img{
+    margin-left: -20px;
+    margin-top: -20px;
+}
+.book{  /*Item*/
+    width: 420px;
+    height: 220px;
+    background-color: #decbb2;
+    margin-top: 10px;
+    border-radius: 20px;
+    display: flex;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.book img{
+    width: 170px;
+    height: 230px;
+    margin-top:20px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    margin-left: 20px;
+}
+.book img:hover{
+    transform: scale(1.1); 
+}
+.price{  /*Price*/
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 20px;
+    color:#fbfbfb;
+    text-shadow: 2px 2px #c1a785;
+}
+.title{
+    width: 180px;
+    font-size: 22px;
+    font-family: "Averia Serif Libre", serif;
+    margin: 10px;
+    color:#ffffff;
+    text-shadow: 2px 2px #c1a785;
+}
+.author{
+    font-size: 14px;
+    text-indent: 10px;
+    font-family: "Averia Serif Libre", serif;
+    color:#504d44; 
+}
+.by{ /*Span*/
+    font-size: 0.8rem;
+    padding-right: 5px;
+    color:#504d44;
+    font-family: "Averia Serif Libre", serif;
+}
+.add {
+    font-family: "Averia Serif Libre", serif;
+    align-items: center;
+    background-color: #a48865;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 10px 50px;
+    height: 2rem;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100px;
+  }
+  .add:hover,
+  .add:focus,
+  .news-btn:hover,
+  .news-btn:focus {
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  }
+  .add:hover,
+  .news-btn:hover {
+    transform: translateY(-1px);
+  }
+  .add:active,
+  .news-btn:active {
+    background-color: #c85000;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+  }
+
+/*Section 3 Newsletter*/
+.newsletter{
+    background-image: url(./resources/newsletter.jpg);
+    height: 200px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.news{
+    background-color: #e5d6c4;
+    width: 900px;
+    height: 120px;
+    margin: 50px 300px;
+    position: absolute;
+    display: flex;
+    border-radius: 10px;
+}
+.news h2{
+    margin: 50px;
+    font-family: "Averia Serif Libre", serif;
+    color: white;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px #decbb2;
+}
+input[type=email]{
+    margin:40px 0px;
+    height: 50px;
+    width: 400px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: #decbb2;
+    padding: 10px 40px;
+    box-shadow: rgb(179, 162, 140) 3px 3px 6px 0px inset, rgba(198, 198, 198, 0.5) -3px -3px 6px 1px inset;
+    color: #f6f6f6;
+}
+.news-btn{  /*Button*/
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    margin: 50px -100px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #b59064;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    color: white;
+    font-family: "Averia Serif Libre", serif;
+}
+
+/*Section 4 Feedback*/
+.rating,   /*Star Rating Fixed*/
+.rating-feed{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.average-rating,
+.average-rating-feed{
+    position: relative;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    color: transparent;
+    width: auto;
+    display: inline-block;
+    vertical-align: baseline;
+    font-size: 25px;
+  }
+.average-rating::before,
+.average-rating-feed::before {
+    --percent: calc(4.3/5*100%);
+    content: "★★★★★";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgb(220, 193, 37) var(--percent), rgba(0, 0, 0, 0.2) var(--percent));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.feed-text{
+    margin-top: 200px;
+}
+.container-feed{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.card{
+    background-color: #e5d6c4;
+    width: 350px;
+    height: 350px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.card img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin: -30px 120px;
+}
+.card p{
+   text-align: center;
+   margin-top: 60px;
+   font-family: "Averia Serif Libre", serif;
+}
+.name-feed{
+    color: white;
+    text-shadow: 2px 2px #decbb2;
+}
+/*Rating*/
+.rating-feed{
+    margin: 20px 120px;
+}
+.b7::before{
+    --percent: calc(5/5*100%);
+}
+.b8::before{
+    --percent: calc(4.5/5*100%);
+}
+.b9::before{
+    --percent: calc(4.4/5*100%);
+}
+
+        
+/*Footer*/
+
+footer{
+    width: 100%;
+    height: 500px;
+    background-image: url(./resources/footer.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+   
+}
+iframe{
+  border-radius: 50px;
+    float: right;
+    filter: drop-shadow(0 20px 20px #0009);
+}
+.footer-row1{
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-evenly;
+    font-family: "Averia Serif Libre", serif;
+}
+.bi-geo-alt-fill,
+.bi-telephone-fill{
+    position: absolute;
+    margin: -28px 80px;
+    font-size: 20px;
+    color: #c85000;
+}
+.bi-envelope-open-fill{
+    position: absolute;
+    margin: -28px 110px;
+    font-size: 20px;
+    color: #c85000;
+}
+.footer-row1 ul{    
+    list-style: none;
+}
+.footer-row1 ul li:nth-child(3){
+    color: grey;
+}
+.footer-row1 ul li:first-child{
+ font-size: 20px;
+}
+/*Line*/
+.footer-line{
+    margin: 100px 300px;
+    border:1px solid #c85000;
+}
+.footer-row2{
+    display: flex;
+    font-family: "Averia Serif Libre", serif;
+    gap: 250px;
+    margin: -50px 180px;
+}
+.logo-footer img{ /*Logo*/
+    width: 200px;
+}
+.logo-footer{
+    margin-top: -50px;
+    margin-left: -50px;
+}
+.footer-row2 ul{
+    list-style: none;
+}
+.footer-row2 ul li{
+    margin: 10px;
+}
+.footer-row2 ul li:first-child{
+    margin-bottom: 5px;
+    font-size:20px;
+}
+.footer-row2 ul li a{
+    color: grey;
+}
+.icons {   /*Social*/
+    float: right;
+    font-size: 30px;
+    display: flex;
+    gap: 40px;
+    margin-right: 80px;
+    cursor: pointer;
+}
+.icons i{
+  transition: all 0.5s ease;
+  color:#c85000;
+}
+.icons i:hover{
+    transform: scale(1.4); 
+}
+.copy-right{  /*Copy Right*/
+    margin: 60px 50px;
+    color: grey;
+  }
