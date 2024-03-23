@@ -46,10 +46,10 @@ async getProducts(){
         let data = await result.json();
         let products = data.items;
         products = products.map(item =>{
-            const {title,price} = item.fields;
+            const {title,author,price} = item.fields;
             const {id} = item.sys
             const image = item.fields.image.fields.file.url;
-            return  {title,price,id,image}
+            return  {title,author,price,id,image}
         })
         return products
     } catch (error){
@@ -74,6 +74,7 @@ products.forEach(product => {
         </div>
         <div class="book-text">
            <h3>${product.title}</h3>
+           <h4 class="author"><span>By:</span>${product.author}</h4>
            <h4>$${product.price}</h4>
            </div>
            </div>

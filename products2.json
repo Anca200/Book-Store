@@ -3,9 +3,10 @@
       {
         "sys": { "id": "1" },
         "fields": {
-          "title": "A Touch of Chaos",
+          "title": "The SongBird",
+          "author": "Carissa Broadbent",
           "price": 25,
-          "image": { "fields": { "file": { "url": "../images/book-1.webp"} } }
+          "image": { "fields": { "file": { "url": "../images/book-7.webp"} } }
         }
       },
       {
