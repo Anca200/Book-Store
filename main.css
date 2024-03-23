@@ -59,7 +59,7 @@ width: 100%;
 footer,
 .up-text,
 .container-s2,
-.newsletter,
+
 .feed-text,
 .container-feed,
 .book{
@@ -199,7 +199,6 @@ hr{ /*Line Title*/
 /*Mobile*/
 @media (max-width:600px){
     .award-text{
-        background-color: red;
         margin: 10px 10px;
         text-align: center;
        display: inline;
@@ -208,8 +207,7 @@ hr{ /*Line Title*/
         width: 100%;
     }
     hr{
-        margin: 10px 150px;
-        width: 100px;
+    display: none;
     }
     .products-center {
         flex-direction: column;
@@ -253,7 +251,7 @@ hr{ /*Line Title*/
 }
 .book{  /*Item*/
     width: 420px;
-    height: 220px;
+    height: 2340px;
     background-color: #decbb2;
     margin-top: 10px;
     border-radius: 20px;
@@ -335,11 +333,42 @@ hr{ /*Line Title*/
     box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
     transform: translateY(0);
   }
+  @media (max-width:600px){
+    *{
+        align-items: center;
+    }
+    .up-text{
+     margin: 50px 0;
+    width: 100%;
+    text-align: center;
+    display:inline-block;
+    align-items: center;
+    }
+    .up-text h2{
+      margin-top: 200px;
+      margin-left: 20px;
+    }
+    .container-s2{
+        flex-direction: column;
+        height: 200vh;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
 
+    }
+    .image-person{
+       display: none;
+    }
+    .container-feed,
+    .card{
+        display: none;
+    }
+  }
 /*Section 3 Newsletter*/
 .newsletter{
     background-image: url(./resources/newsletter.jpg);
     height: 200px;
+    width: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -386,7 +415,34 @@ input[type=email]{
     color: white;
     font-family: "Averia Serif Libre", serif;
 }
-
+@media (max-width:600px){
+    .newsletter{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .news{
+        margin: 30px 0px;
+        width: 100%;
+    }
+    .news h2{
+        display: inline;
+        margin-top: -150px;
+        margin-left: 10px;
+        height: 100px;
+        width: 100%;
+        text-align: center;
+    }
+    form{
+     width: 100%;
+    margin-left: -400px;
+    }
+    input[type=email]{
+        width: 300px;
+        margin-left: 10px;
+    }
+ 
+}
 /*Section 4 Feedback*/
 .rating,   /*Star Rating Fixed*/
 .rating-feed{
