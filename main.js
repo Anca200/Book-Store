@@ -1,6 +1,6 @@
 //Animations
 AOS.init();
-//Nav Menu
+
 //Navbar Menu
 const nav = document.querySelector('.nav-links');
 const hamburger = document.querySelector('.hamburger');
@@ -8,6 +8,18 @@ const hamburger = document.querySelector('.hamburger');
 hamburger.addEventListener('click',() => {
     nav.classList.toggle("nav--open");
 })
+
+//Nav Scroll
+const navbar = document.querySelector('nav')
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 100) {
+    navbar.classList.add('scrolled')
+  } else {
+    navbar.classList.remove('scrolled')
+  }
+})
+
 
 //variables
 

@@ -1,3 +1,4 @@
+/*Header*/
 header{
     background-image: url(./resources/thought-catalog-Pnvmg65W9tQ-unsplash.jpg);
     height: 100vh;
@@ -13,10 +14,54 @@ header{
     font-family: "Averia Serif Libre", serif;
     color: white;
     font-size: 1.5rem;
-    text-shadow: 2px 2px #decbb2;
+    text-shadow: 2px 2px #f09d51;
  }
- 
-/*Section 1*/
+ .find-btn{   /*Button*/
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #f09d51;
+    color: white;
+    margin: 50px 200px;
+    font-family: "Averia Serif Libre", serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ }
+ .find-btn a{
+    color: inherit;
+    text-decoration: none;
+ }
+ .find-btn:hover{
+    background-color: #c85000;
+    transform: scale(1.1); 
+ }
+ /*Mobile*/
+ @media (max-width:600px){
+header{
+height: 100vh;
+width: 100%;
+}  
+
+.header-text{
+    margin: 200px 30px;
+    font-size: 20px;
+    width: 300px;
+    text-align: center;
+}
+.find-btn{
+    width: 100px;
+    margin: 10px 10px;
+}
+main,
+footer{
+    display: none;
+}
+ }
+ /*Main Section 1*/
+
 .award-text, 
 .up-text,
 .feed-text{

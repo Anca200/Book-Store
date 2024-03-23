@@ -89,6 +89,7 @@ nav.scrolled {   /*Nav Background changes*/
         background-color: rgb(237, 232, 222);
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         z-index: 1;
+        width: 100%;
     }
     .nav-links{
         position: relative; /*Nav Ul*/
