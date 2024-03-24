@@ -1,6 +1,6 @@
 /*Header*/
 header{
-    background-image: url(./resources/thought-catalog-Pnvmg65W9tQ-unsplash.jpg);
+    background-image: url(../resources/thought-catalog-Pnvmg65W9tQ-unsplash.jpg);
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -353,7 +353,7 @@ hr{ /*Line Title*/
   }
 /*Section 3 Newsletter*/
 .newsletter{
-    background-image: url(./resources/newsletter.jpg);
+    background-image: url(../resources/newsletter.jpg);
     height: 200px;
     width: 100%;
     background-attachment: fixed;
@@ -530,7 +530,7 @@ input[type=email]{
 footer{
     width: 100%;
     height: 500px;
-    background-image: url(./resources/footer.jpg);
+    background-image: url(../resources/footer.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

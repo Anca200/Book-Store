@@ -1,3 +1,10 @@
+//Navbar Menu
+const nav = document.querySelector('.nav-links');
+const hamburger = document.querySelector('.hamburger');
+
+hamburger.addEventListener('click',() => {
+    nav.classList.toggle("nav--open");
+})
 //Nav Scroll
 const navbar = document.querySelector('nav')
 
@@ -29,7 +36,7 @@ let buttonsDOM = [];
 class Products{
 async getProducts(){
     try{
-        let result = await fetch ("../products.json");
+        let result = await fetch ("../shop/products.json");
         let data = await result.json();
         let products = data.items;
         products = products.map(item =>{

@@ -42,7 +42,7 @@ let buttonsDOM = [];
 class Products{
 async getProducts(){
     try{
-        let result = await fetch ("../products2.json");
+        let result = await fetch ("../main/products-main.json");
         let data = await result.json();
         let products = data.items;
         products = products.map(item =>{
