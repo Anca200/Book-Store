@@ -1,5 +1,4 @@
-//Animations
-AOS.init();
+
 
 //Navbar Menu
 const nav = document.querySelector('.nav-links');
