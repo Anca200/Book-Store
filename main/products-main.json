@@ -6,7 +6,7 @@
           "title": "The SongBird",
           "author": "Carissa Broadbent",
           "price": 25,
-          "image": { "fields": { "file": { "url": "./images/book-7.webp"} } }
+          "image": { "fields": { "file": { "url": "../images/book-7.webp"} } }
         }
       },
       {
@@ -14,7 +14,7 @@
         "fields": {
           "title": "Memory Piece",
           "price": 25,
-          "image": { "fields": { "file": { "url": "./images/book-2.webp" } } }
+          "image": { "fields": { "file": { "url": "../images/book-2.webp" } } }
         }
       },
       {
@@ -22,7 +22,7 @@
         "fields": {
           "title": "The Morningside",
           "price": 26.10,
-          "image": { "fields": { "file": { "url": "./images/book-3.webp" } } }
+          "image": { "fields": { "file": { "url": "../images/book-3.webp" } } }
         }
       }
       ]}
