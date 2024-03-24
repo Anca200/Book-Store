@@ -7,7 +7,8 @@
 
 
 .products {
-    padding: 4rem 0;
+    padding: 10rem 0;
+
   }
   .section-title h2 {
     text-align: center;
@@ -29,6 +30,8 @@
     position: relative;
     overflow: hidden;
     border-radius: 20px;
+    width: 200px;
+
   }
   .bag-btn {
     position: absolute;
@@ -62,7 +65,10 @@
   .img-container:hover .product-img {
     opacity: 0.5;
   }
-  
+  .book-text{
+   
+    width: 200px;
+  }
   .product h3 {
     text-transform: capitalize;
     font-size: 1.1rem;

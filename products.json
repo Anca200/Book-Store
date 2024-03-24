@@ -3,9 +3,9 @@
     {
       "sys": { "id": "1" },
       "fields": {
-        "title": "A Touch of Chaos",
+        "title": "The SongBird",
         "price": 25,
-        "image": { "fields": { "file": { "url": "../images/book-1.webp"} } }
+        "image": { "fields": { "file": { "url": "../images/book-7.webp"} } }
       }
     },
     {
@@ -46,6 +46,22 @@
         "title": "Faebound",
         "price": 26.50,
         "image": { "fields": { "file": { "url": "../images/book-6.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "The Woman",
+        "price": 21,
+        "image": { "fields": { "file": { "url": "../images/book-8.webp" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "The Herbal Dog",
+        "price": 24.99,
+        "image": { "fields": { "file": { "url": "../images/book-9.webp" } } }
       }
     }
 

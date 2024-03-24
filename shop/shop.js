@@ -48,8 +48,10 @@ products.forEach(product => {
                 add to cart
             </button>
         </div>
+        <div class="book-text">
            <h3>${product.title}</h3>
            <h4>$${product.price}</h4>
+           </div>
            </article>
     `;
 });
