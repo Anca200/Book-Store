@@ -63,6 +63,70 @@
         "price": 24.99,
         "image": { "fields": { "file": { "url": "../images/book-9.webp" } } }
       }
+    },
+    {
+      "sys": { "id": "9" },
+      "fields": {
+        "title": "The SongBird",
+        "price": 25,
+        "image": { "fields": { "file": { "url": "../images/book-7.webp"} } }
+      }
+    },
+    {
+      "sys": { "id": "10" },
+      "fields": {
+        "title": "Memory Piece",
+        "price": 25,
+        "image": { "fields": { "file": { "url": "../images/book-2.webp" } } }
+      }
+    },
+    {
+      "sys": { "id": "11" },
+      "fields": {
+        "title": "The Morningside",
+        "price": 26.10,
+        "image": { "fields": { "file": { "url": "../images/book-3.webp" } } }
+      }
+    },
+    {
+      "sys": { "id": "12" },
+      "fields": {
+        "title": "Dune",
+        "price": 14.99,
+        "image": { "fields": { "file": { "url": "../images/book-4.webp" } } }
+      }
+    },
+    {
+      "sys": { "id": "13" },
+      "fields": {
+        "title": "Reckless",
+        "price": 21,
+        "image": { "fields": { "file": { "url": "../images/book-5.webp" } } }
+      }
+    },
+    {
+      "sys": { "id": "14" },
+      "fields": {
+        "title": "Faebound",
+        "price": 26.50,
+        "image": { "fields": { "file": { "url": "../images/book-6.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "15" },
+      "fields": {
+        "title": "The Woman",
+        "price": 21,
+        "image": { "fields": { "file": { "url": "../images/book-8.webp" } } }
+      }
+    },
+    {
+      "sys": { "id": "16" },
+      "fields": {
+        "title": "The Herbal Dog",
+        "price": 24.99,
+        "image": { "fields": { "file": { "url": "../images/book-9.webp" } } }
+      }
     }
 
   ]

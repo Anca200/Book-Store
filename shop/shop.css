@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -15,7 +15,9 @@
     font-size: 2.5rem;
     margin-bottom: 5rem;
     text-transform: capitalize;
-    letter-spacing: var(--mainSpacing);
+    font-family: "Averia Serif Libre", serif;
+    color:#ffffff;
+    text-shadow: 2px 2px #c1a785;
   }
   .products-center {
     width: 90vw;
@@ -46,6 +48,7 @@
     transition: var(--mainTransition);
     transform: translateX(101%);
     cursor: pointer;
+    font-family: "Averia Serif Libre", serif;
   }
   .bag-btn:hover {
     color: var(--mainWhite);
@@ -66,21 +69,29 @@
     opacity: 0.5;
   }
   .book-text{
-   
+    font-family: "Averia Serif Libre", serif;
     width: 200px;
+    color:#ffffff;
+    text-shadow: 2px 2px #c1a785;
   }
   .product h3 {
     text-transform: capitalize;
     font-size: 1.1rem;
     margin-top: 1rem;
-    letter-spacing: var(--mainSpacing);
     text-align: center;
   }
   
   .product h4 {
     margin-top: 0.7rem;
-    letter-spacing: var(--mainSpacing);
-    color: var(--primaryColor);
     text-align: center;
+    color: grey;
+    text-shadow: none;
   }
   
+  .bottom-text{
+    display:flex;
+    justify-content: center;
+    font-family: "Averia Serif Libre", serif;
+    color:#ffffff;
+    text-shadow: 2px 2px #c1a785;
+  }
