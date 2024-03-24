@@ -1,0 +1,112 @@
+.section-1 {
+    height: 350px;
+    width: 100%;
+    background-image: url(../resources/jason-w-PBNbMX6jtBM-unsplash.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    margin-top: 200px;
+    object-fit: cover;
+    filter: sepia(100%);
+    position: relative;
+    
+}
+.section-2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 200px;
+}
+.section-2 img{
+    width: 400px;
+    height: 400px;
+    margin: 50px 100px;
+    border-radius: 10px;
+}
+.glass-shine-effect {
+  background-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(107, 107, 107, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 125px;
+  width: 125px;
+  cursor: pointer;
+  position: relative;
+  transition: transform 200ms ease;
+  overflow: hidden;
+}
+.glass-shine-effect:before {
+  content: "";
+  position: absolute;
+  height: 150%;
+  width: 50px;
+  transform: rotate(30deg);
+  background-color: rgba(255, 255, 255, 0.2);
+  left: -100px;
+}
+.glass-shine-effect:hover {
+  transform: scale(1.1);
+}
+.glass-shine-effect:hover:before {
+  transition: left 500ms ease;
+  left: 170px;
+}
+.section-2 h2{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.section-2 p{
+    margin-bottom: 100px;
+
+}
+.section-2 ul li{
+ margin: 0 100px 24px;
+
+}
+.text {
+    font-family: "Averia Serif Libre", serif;
+    text-overflow:ellipsis;
+
+}
+button{   /*Button*/
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #f09d51;
+    color: white;
+    margin: 50px 200px;
+    font-family: "Averia Serif Libre", serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ }
+
+ button:hover{
+    background-color: #c85000;
+    transform: scale(1.1); 
+ }
+ @media (max-width:600px){
+    .section-2{
+        flex-direction: column;
+    }
+    .section-2 img{
+        margin: 0;
+        width: 100%;
+    }
+    button{
+        width: 100%;
+        margin: 0;
+    }
+    .section-2 h2{
+        margin-top: 50px;
+    }
+ }
+
