@@ -507,13 +507,20 @@ input[type=email]{
 }
 @media (max-width:600px){
     .feed-text{
-        margin: 100px 10px;
+        margin: 100px 0px;
         width: 100%;
         margin-bottom: 400px;
     }
     .container-feed{
         flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 100%;
 
+    }
+    .card{
+        width: 100%;
+    
     }
 
 }
@@ -532,9 +539,9 @@ footer{
    
 }
 iframe{
-  border-radius: 50px;
+  border-radius: 20px;
     float: right;
-    filter: drop-shadow(0 20px 20px #0009);
+
 }
 .footer-row1{
     display: flex;
@@ -542,16 +549,16 @@ iframe{
     justify-content: space-evenly;
     font-family: "Averia Serif Libre", serif;
 }
-.bi-geo-alt-fill,
-.bi-telephone-fill{
+.fa-location-dot,
+.fa-phone-volume{
     position: absolute;
-    margin: -28px 80px;
+    margin: -24px 80px;
     font-size: 20px;
     color: #c85000;
 }
-.bi-envelope-open-fill{
+.fa-envelope{
     position: absolute;
-    margin: -28px 110px;
+    margin: -22px 110px;
     font-size: 20px;
     color: #c85000;
 }
@@ -575,12 +582,10 @@ iframe{
     gap: 250px;
     margin: -50px 180px;
 }
-.logo-footer img{ /*Logo*/
-    width: 200px;
-}
-.logo-footer{
-    margin-top: -50px;
-    margin-left: -50px;
+
+.logo-footer span{
+    color:#f09d51;
+
 }
 .footer-row2 ul{
     list-style: none;
@@ -618,5 +623,53 @@ iframe{
     footer{
         width: 100%;
         flex-direction: column;
+        margin-top: 500px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
     }
+    .footer-row1{
+      padding-top: 50px;
+      width: 100%;
+      font-size: 12px;
+      flex-direction: column;
+      text-align: center;
+      gap: 10px;
+      
+    }
+    .fa-location-dot,
+    .fa-phone-volume{
+      margin-left: 60px;
+      font-size: 16px; 
+}
+    .fa-envelope{
+        margin-left: 60px;
+        font-size: 16px;
+    }
+    .footer-line{
+    display: none;
+    }
+    .footer-row2{
+        display: contents;
+        align-items: center;
+    }
+    .logo-footer{
+        margin-top: 50px;
+    }
+    .copy-right{
+       margin: 0px;
+       font-size: 12px;
+   
+     
+    }
+    .icons{
+       
+      width: 100%;
+      display: inline;
+      margin: 0 0px;
+      
+    }
+   
+
   }
