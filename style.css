@@ -261,7 +261,7 @@ nav.scrolled {   /*Nav Background changes*/
 footer{
   width: 100%;
   height: 500px;
-  background-image: url(../resources/footer.jpg);
+  background-image: url(./resources/footer.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
