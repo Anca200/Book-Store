@@ -74,7 +74,7 @@
     text-overflow:ellipsis;
 
 }
-button{   /*Button*/
+.section-2 button{   /*Button*/
     padding: 10px;
     border-radius: 10px;
     outline: none;
@@ -89,7 +89,7 @@ button{   /*Button*/
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
  }
 
- button:hover{
+ .section-2 button:hover{
     background-color: #c85000;
     transform: scale(1.1); 
  }
