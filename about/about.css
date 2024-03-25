@@ -8,7 +8,6 @@
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
     margin-top: 200px;
     object-fit: cover;
-    filter: sepia(100%);
     position: relative;
     
 }
@@ -24,39 +23,7 @@
     margin: 50px 100px;
     border-radius: 10px;
 }
-.glass-shine-effect {
-  background-color: rgba(255, 255, 255, 0.15);
-  box-shadow: 0 8px 32px 0 rgba(107, 107, 107, 0.37);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 125px;
-  width: 125px;
-  cursor: pointer;
-  position: relative;
-  transition: transform 200ms ease;
-  overflow: hidden;
-}
-.glass-shine-effect:before {
-  content: "";
-  position: absolute;
-  height: 150%;
-  width: 50px;
-  transform: rotate(30deg);
-  background-color: rgba(255, 255, 255, 0.2);
-  left: -100px;
-}
-.glass-shine-effect:hover {
-  transform: scale(1.1);
-}
-.glass-shine-effect:hover:before {
-  transition: left 500ms ease;
-  left: 170px;
-}
+
 .section-2 h2{
     font-size: 30px;
     margin-bottom: 50px;
@@ -101,7 +68,7 @@
         margin: 0;
         width: 100%;
     }
-    button{
+    .section-2 button{
         width: 100%;
         margin: 0;
     }
