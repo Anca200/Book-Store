@@ -55,10 +55,8 @@ width: 100%;
     width: 100px;
     margin: 10px 10px;
 }
-
-
  }
- 
+
  /*Main Section 1*/
 
 .section-1{
@@ -117,23 +115,10 @@ hr{ /*Line Title*/
 
 /*Mobile*/
 @media (max-width:600px){
-    .award-text{
-        margin: 10px 10px;
-        text-align: center;
-       display: inline;
-    }
-    .award-text h2{
-        width: 100%;
-    }
-    hr{
-    display: none;
-    }
-    .products-center {
-        flex-direction: column;
-        gap: 100px;
-        justify-content: center;
-        align-items: center;
-    }
+  .section-1{
+    flex-direction: column;
+  }
+ 
 }
 
 
@@ -163,6 +148,7 @@ hr{ /*Line Title*/
     display: flex;
     flex-direction: column;
     margin: 50px 60px;
+text-align: center;
 }
 .container-s2 .book img{
     margin-left: -20px;
@@ -190,7 +176,6 @@ hr{ /*Line Title*/
     transform: scale(1.1); 
 }
 .price{  /*Price*/
-    margin-left: 40px;
     margin-top: 10px;
     font-size: 20px;
     color:#fbfbfb;
@@ -200,13 +185,12 @@ hr{ /*Line Title*/
     width: 180px;
     font-size: 22px;
     font-family: "Averia Serif Libre", serif;
-    margin: 10px;
+    margin: 10px 0px;
     color:#ffffff;
     text-shadow: 2px 2px #c1a785;
 }
 .author{
     font-size: 14px;
-    text-indent: 10px;
     font-family: "Averia Serif Libre", serif;
     color:grey; 
 }
@@ -218,7 +202,6 @@ hr{ /*Line Title*/
 }
 .add {
     font-family: "Averia Serif Libre", serif;
-    align-items: center;
     background-color: #a48865;
     border: 1px solid transparent;
     border-radius: .25rem;
@@ -234,6 +217,12 @@ hr{ /*Line Title*/
     -webkit-user-select: none;
     touch-action: manipulation;
     width: 100px;
+
+
+  }
+  .add a{
+    color: inherit;
+    text-decoration:none ;
   }
   .add:hover,
   .add:focus,
@@ -252,6 +241,7 @@ hr{ /*Line Title*/
     box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
     transform: translateY(0);
   }
+
   @media (max-width:600px){
     *{
         align-items: center;
@@ -264,7 +254,7 @@ hr{ /*Line Title*/
     align-items: center;
     }
     .up-text h2{
-      margin-top: 200px;
+      margin-top: 100px;
       margin-left: 20px;
     }
     .container-s2{
@@ -276,6 +266,10 @@ hr{ /*Line Title*/
     }
     .image-person{
        display: none;
+    }
+    hr{
+        margin: -10px 5px;
+        width: 80px;
     }
   }
 /*Section 3 Newsletter*/
