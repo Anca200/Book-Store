@@ -11,12 +11,16 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--Icons-->
     <script src="https://kit.fontawesome.com/1b757b43bb.js" crossorigin="anonymous"></script>
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="./resources/favicon.png">
 </head>
 
 <body>
         
     <header>         
-    <nav>
+    <nav  data-aos="fade-right"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine">
     <ul class="nav-links"> <!--Nav ul links-->
         <li><a href="./index.html">Home</a></li>
         <li><a href="./shop/shop.html">Shop</a></li>
@@ -43,7 +47,9 @@
        </nav>
 
        <div class="header-text"
-       data-aos="fade-up"data-aos-duration="3000" > 
+       data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"> 
       <h1> You're only one book<br>away from a good mood</h1>
       <button class="find-btn"><a href="./shop/shop.html">Find Your Book</a></button>
 
@@ -54,7 +60,7 @@
 <main>
   
    
-       <div class="section-1">
+       <div class="section-1" data-aos="fade-up">
          <div class="info">
           <i class="fa-solid fa-truck"></i>
           <p>FREE DELIVERY</p>
@@ -76,12 +82,12 @@
        </div>
     <!--Section 2 -->
 
-       <div class="up-text"> <!--Title-->
+       <div class="up-text" data-aos="fade-right"> <!--Title-->
         <h2>Award Winning</h2>
         <hr> <!--Line Title-->
        </div>
      
-       <div class="container-s2">
+       <div class="container-s2" data-aos="fade-right">
       <img class="image-person"src="./resources/man-wearing-waistcoat-reading-book-removebg-preview.png">
        
       <!--Item 1-->
@@ -133,7 +139,7 @@
 
        <!--Section 3 Newsletter-->
        <div class="newsletter" >  
-        <div class="news">
+        <div class="news" data-aos="flip-left">
           <h2>Subscribe To Our Newsletter</h2>
 
         <form action="#" name="newsletter"> <!--Form-->
@@ -289,7 +295,7 @@
 
      <!--Main Js-->
 
-    <script src="/shop/shop.js"></script>
+    <script async src="/shop/shop.js"></script>
     <!--Animations-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
