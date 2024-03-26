@@ -5,7 +5,7 @@
       "fields": {
         "title": "The SongBird",
         "price": 25,
-        "image": { "fields": { "file": { "url": "../images/book-7.webp"} } }
+        "image": { "fields": { "file": { "url": "../books/book-7.webp"} } }
       }
     },
     {
@@ -13,7 +13,7 @@
       "fields": {
         "title": "Memory Piece",
         "price": 25,
-        "image": { "fields": { "file": { "url": "../images/book-2.webp" } } }
+        "image": { "fields": { "file": { "url": "../books/book-2.webp" } } }
       }
     },
     {
@@ -21,7 +21,7 @@
       "fields": {
         "title": "The Morningside",
         "price": 26.10,
-        "image": { "fields": { "file": { "url": "../images/book-3.webp" } } }
+        "image": { "fields": { "file": { "url": "../books/book-3.webp" } } }
       }
     },
     {
@@ -29,7 +29,7 @@
       "fields": {
         "title": "Dune",
         "price": 14.99,
-        "image": { "fields": { "file": { "url": "../images/book-4.webp" } } }
+        "image": { "fields": { "file": { "url": "../books/book-4.webp" } } }
       }
     },
     {
@@ -37,7 +37,7 @@
       "fields": {
         "title": "Reckless",
         "price": 21,
-        "image": { "fields": { "file": { "url": "../images/book-5.webp" } } }
+        "image": { "fields": { "file": { "url": "../books/book-5.webp" } } }
       }
     },
     {
@@ -45,7 +45,7 @@
       "fields": {
         "title": "Faebound",
         "price": 26.50,
-        "image": { "fields": { "file": { "url": "../images/book-6.jpg" } } }
+        "image": { "fields": { "file": { "url": "../books/book-6.jpg" } } }
       }
     },
     {
@@ -53,7 +53,7 @@
       "fields": {
         "title": "The Woman",
         "price": 21,
-        "image": { "fields": { "file": { "url": "../images/book-8.webp" } } }
+        "image": { "fields": { "file": { "url": "../books/book-8.webp" } } }
       }
     },
     {
@@ -61,7 +61,7 @@
       "fields": {
         "title": "The Herbal Dog",
         "price": 24.99,
-        "image": { "fields": { "file": { "url": "../images/book-9.webp" } } }
+        "image": { "fields": { "file": { "url": "../books/book-9.webp" } } }
       }
     },
     {
@@ -69,7 +69,7 @@
       "fields": {
         "title": "The SongBird",
         "price": 25,
-        "image": { "fields": { "file": { "url": "../images/book-7.webp"} } }
+        "image": { "fields": { "file": { "url": "../books/book-7.webp"} } }
       }
     },
     {
@@ -77,7 +77,7 @@
       "fields": {
         "title": "Memory Piece",
         "price": 25,
-        "image": { "fields": { "file": { "url": "../images/book-2.webp" } } }
+        "image": { "fields": { "file": { "url": "../books/book-2.webp" } } }
       }
     },
     {
@@ -85,7 +85,7 @@
       "fields": {
         "title": "The Morningside",
         "price": 26.10,
-        "image": { "fields": { "file": { "url": "../images/book-3.webp" } } }
+        "image": { "fields": { "file": { "url": "../books/book-3.webp" } } }
       }
     },
     {
@@ -93,7 +93,7 @@
       "fields": {
         "title": "Dune",
         "price": 14.99,
-        "image": { "fields": { "file": { "url": "../images/book-4.webp" } } }
+        "image": { "fields": { "file": { "url": "../books/book-4.webp" } } }
       }
     },
     {
@@ -101,7 +101,7 @@
       "fields": {
         "title": "Reckless",
         "price": 21,
-        "image": { "fields": { "file": { "url": "../images/book-5.webp" } } }
+        "image": { "fields": { "file": { "url": "../books/book-5.webp" } } }
       }
     },
     {
@@ -109,7 +109,7 @@
       "fields": {
         "title": "Faebound",
         "price": 26.50,
-        "image": { "fields": { "file": { "url": "../images/book-6.jpg" } } }
+        "image": { "fields": { "file": { "url": "../books/book-6.jpg" } } }
       }
     },
     {
@@ -117,7 +117,7 @@
       "fields": {
         "title": "The Woman",
         "price": 21,
-        "image": { "fields": { "file": { "url": "../images/book-8.webp" } } }
+        "image": { "fields": { "file": { "url": "../books/book-8.webp" } } }
       }
     },
     {
@@ -125,7 +125,7 @@
       "fields": {
         "title": "The Herbal Dog",
         "price": 24.99,
-        "image": { "fields": { "file": { "url": "../images/book-9.webp" } } }
+        "image": { "fields": { "file": { "url": "../books/book-9.webp" } } }
       }
     }
 
