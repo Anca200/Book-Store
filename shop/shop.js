@@ -15,6 +15,8 @@ window.addEventListener('scroll', () => {
     navbar.classList.remove('scrolled')
   }
 })
+
+
 //variables
 
 const cartBtn =document.querySelector('.cart-btn');
